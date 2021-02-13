@@ -1,51 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Google</title>
-	<link rel="icon"  href="favicon.ico">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Google</title>
 </head>
 <body>
-      <nav>
-      	<a href="#">Gmail</a>
-      	<a href="#">Images</a>
-      	<img src="img/g-menu.PNG">
-      	<button>Sign in</button>
-      </nav>
-      <section class="section-1">
-      	<img src="img/logo.png" class="logo">
-      	<form><br><br>
-      		<div class="s-box">
-      			<img src="img/search.svg" class="search-icon">
-      			<input type="text" class="s-input">
-      			<img src="img/vs.png" class="vs-icon">
-      			<input type="submit" class="s-btn" value="Google Search">
-      			<input type="submit" class="s-btn" value="I'm Feeling Lucky">
-      		</div>
-      	</form>
-      	<div class="lang">
-      		Google offered in:
-      		<a href="#">Latvia</a>
-      		<a href="#">Latviešu</a>
-      	</div>
-      </section>
-      <footer>
-      	<h4>Latvia</h4>
-      	<div class="links">
-      		<div class="link-1">
-      			<a href="#">Advertising</a>
-      			<a href="#">Business</a>
-      			<a href="#">About</a>
-      			<a href="#">How Search works</a>
-      		</div>
-      		<div class="link-2">
-      			<a href="#">Privacy</a>
-      			<a href="#">Terms</a>
-      			<a href="#">Settings</a>
-      		</div>
-      	</div>
-      </footer>
-
+    <div id="navbar">
+        <a href="#" id="about">About</a>
+        <a href="#" id="store">Store</a>
+        <a href="#" id="gmail">Gmail</a>
+        <a href="#" id="image">Images</a>
+        <a href="#" id="menu"><img src="g-menu.png" height="20px" width="20px"></a>
+        <a href="#" id="sign-in">Sign in</a>
+    </div>
+    <div id="main">
+        <a href="#" id="logo"><img src="logo.svg"></a>
+        <input type="text" id="search">
+        <div id="flexbox">
+            <button id="google-search-btn">Google Search</button><button id="random-search-btn">I'm Feeling Lucky</button>
+        </div>
+        <p id="google-text">Google offered in: <a href="#">Latviešu</a></p>
+    </div>
+    <div id="footer">
+        <a href="#" id="">Advertising</a>
+        <a href="#" id="">Business</a>
+        <a href="#" id="">How Search works</a>
+        <a href="#" id="">Privacy</a>
+        <a href="#" id="">Terms</a>
+        <a href="#" id="">Settings</a>
+    </div>
 </body>
 </html>
